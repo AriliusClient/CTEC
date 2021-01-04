@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ctec",
+  "version": "${version}",
+  "name": "CTEC",
+  "description": "AAAA",
+  "authors": [
+    "Constantin"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.constantindev.ctec.client.CTECClient"
+    ],
+    "main": [
+      "me.constantindev.ctec.CTEC"
+    ]
+  },
+  "mixins": [
+    "CTEC.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
