@@ -11,8 +11,8 @@ go to build/libs, get jarfile, put into mods folder of fabric 1.16.4, launch gam
 4. access a crafting table
 5. wait for the "Server is lagging" messages in chat
 
-### Note
-if it shows any kind of error when you execute`setrecipes`, the server either
+### Note 
+if it shows any kind of error when you execute `setrecipes`, the server either
 
 1. patched it
 2. patched a dupe glitch and accidentally patched this
